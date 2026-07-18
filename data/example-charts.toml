@@ -1,0 +1,215 @@
+[[series]]
+name="portfolio"
+expr="cash+etf+crypto+bonds+stocks+retirement+stocks2"
+
+[[series]]
+name="totalDebt"
+expr="abs(mortgage)+abs(carLoan)"
+
+[[series]]
+name="salaryMinusGrowth"
+expr="salary-delta(netWorth)"
+
+[[series]]
+name="financialFreedom"
+expr="portfolio/totalDebt"
+
+[[chart]]
+title="Net Worth"
+description="Cumulative balance across all assets and liabilities"
+type="line"
+show_values=true
+hover="note"
+y="netWorth"
+
+[[chart]]
+title="Monthly Net Worth Change"
+description="Month-over-month change in total net worth"
+type="bar"
+show_values=true
+hover="note"
+y="delta(netWorth)"
+
+[[chart]]
+title="Asset Allocation (Latest) %"
+description="Distribution of assets as percentage of total portfolio (latest month)"
+show_values=true
+[[chart.layer]]
+type="bar"
+y="last(cash/portfolio*100)"
+title="Cash"
+[[chart.layer]]
+type="bar"
+y="last(etf/portfolio*100)"
+title="ETF"
+[[chart.layer]]
+type="bar"
+y="last(crypto/portfolio*100)"
+title="Crypto"
+[[chart.layer]]
+type="bar"
+y="last(bonds/portfolio*100)"
+title="Bonds"
+[[chart.layer]]
+type="bar"
+y="last(stocks/portfolio*100)"
+title="Stocks"
+[[chart.layer]]
+type="bar"
+y="last(retirement/portfolio*100)"
+title="Retirement"
+[[chart.layer]]
+type="bar"
+y="last(stocks2/portfolio*100)"
+title="RSU"
+
+[[chart]]
+title="Assets Breakdown"
+description="Absolute values of individual asset classes over time"
+show_values=true
+hover="note"
+[[chart.layer]]
+type="bar"
+y="cash"
+[[chart.layer]]
+type="bar"
+y="etf"
+[[chart.layer]]
+type="bar"
+y="crypto"
+[[chart.layer]]
+type="bar"
+y="bonds"
+
+[[chart]]
+title="Loans"
+description="Outstanding loan balances over time"
+show_values=true
+hover="note"
+[[chart.layer]]
+type="line"
+y="abs(mortgage)"
+[[chart.layer]]
+type="line"
+y="abs(carLoan)"
+[[chart.layer]]
+type="line"
+y="totalDebt"
+title="Total"
+
+[[chart]]
+title="Net Worth Trend"
+description="Net worth with linear trend line extrapolation"
+show_values=true
+hover="note"
+[[chart.layer]]
+type="line"
+y="netWorth"
+[[chart.layer]]
+type="trend"
+source="netWorth"
+
+[[chart]]
+title="Net Worth Forecast"
+description="Net worth with 12-month forecast projection"
+show_values=true
+[[chart.layer]]
+type="line"
+y="netWorth"
+[[chart.layer]]
+type="forecast"
+source="netWorth"
+by="12"
+
+[[chart]]
+title="Salary"
+description="Monthly salary income over time"
+type="line"
+show_values=true
+hover="note"
+y="salary"
+
+[[chart]]
+title="Salary vs Net Worth Change"
+description="Salary minus the change in net worth — savings indicator"
+type="bar"
+show_values=true
+y="salaryMinusGrowth"
+
+[[chart]]
+title="Salary - Sum Comparison"
+description="Total salary for last 12 months vs previous 12 months"
+show_values=true
+barmode="group"
+x_labels=["Last 12m", "Prev 12m"]
+[[chart.layer]]
+type="bar"
+y="sumSlice(salary, 14, 25)"
+[[chart.layer]]
+type="bar"
+y="sumSlice(salary, 2, 13)"
+
+[[chart]]
+title="Salary - Mean Comparison"
+description="Average monthly salary for last 12 months vs previous 12 months"
+show_values=true
+barmode="group"
+x_labels=["Last 12m", "Prev 12m"]
+[[chart.layer]]
+type="bar"
+y="meanSlice(salary, 14, 25)"
+[[chart.layer]]
+type="bar"
+y="meanSlice(salary, 2, 13)"
+
+[[chart]]
+title="Portfolio Value"
+description="Total portfolio value with trend line"
+hover="note"
+show_values=true
+
+[[chart.layer]]
+type="area"
+y="portfolio"
+
+[[chart.layer]]
+type="trend"
+source="portfolio"
+
+[[chart]]
+title="Portfolio vs Debt"
+description="Total assets vs total liabilities over time"
+hover="note"
+
+[[chart.layer]]
+type="line"
+y="portfolio"
+title="Assets"
+
+[[chart.layer]]
+type="line"
+y="totalDebt"
+title="Debt"
+
+[[chart]]
+title="Financial Freedom Ratio"
+description="Portfolio divided by total debt — higher is better"
+
+[[chart.layer]]
+type="line"
+y="financialFreedom"
+
+[[chart.layer]]
+type="trend"
+source="financialFreedom"
+
+[[series]]
+name="savingEfficiency"
+expr="delta(netWorth)/salary*100"
+
+[[chart]]
+title="Savings Efficiency %"
+description="Percentage of salary converted into net worth growth"
+type="line"
+y="savingEfficiency"
+show_values=true

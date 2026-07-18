@@ -1,0 +1,27 @@
+{
+  "name": "finviz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/expr-eval": "^1.1.2",
+    "@types/luxon": "^3.7.2",
+    "@types/plotly.js": "^3.0.10",
+    "typescript": "~6.0.2",
+    "vite": "^5.4.21",
+    "vitest": "^2.1.9"
+  },
+  "dependencies": {
+    "expr-eval": "^2.0.2",
+    "luxon": "^3.7.2",
+    "marked": "^18.0.6",
+    "plotly.js-dist-min": "^3.7.0",
+    "smol-toml": "^1.7.0"
+  }
+}

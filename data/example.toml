@@ -1,0 +1,479 @@
+[[month]]
+date="2024-06"
+# income
+salary=13
+# assets
+cash=22.5
+etf=0
+crypto=8.5
+bonds=179
+stocks=11.5
+retirement=9.5
+stocks2=0
+# loans
+carLoan=0
+mortgage=-261.4
+# summary
+netWorth=-30.4
+
+[[month]]
+date="2024-07"
+# income
+salary=13
+# assets
+cash=32
+etf=0
+crypto=6
+bonds=180
+stocks=13
+retirement=10
+stocks2=0
+# loans
+carLoan=0
+mortgage=-261.1
+# summary
+netWorth=-20.1
+
+[[month]]
+date="2024-08"
+# income
+salary=14
+# assets
+cash=39
+etf=0
+crypto=6
+bonds=181
+stocks=14
+retirement=10
+stocks2=0
+# loans
+carLoan=0
+mortgage=-260.9
+# summary
+netWorth=-10.9
+
+[[month]]
+date="2024-09"
+# income
+salary=14
+# assets
+cash=38
+etf=0
+crypto=6
+bonds=182
+stocks=15
+retirement=12
+stocks2=0
+# loans
+carLoan=0
+mortgage=-260.7
+# summary
+netWorth=-7.7
+
+[[month]]
+date="2024-10"
+# income
+salary=13
+# assets
+cash=42
+etf=0
+crypto=6
+bonds=183
+stocks=15
+retirement=12
+stocks2=0
+# loans
+carLoan=0
+mortgage=-260.4
+# summary
+netWorth=-2.4
+
+[[month]]
+date="2024-11"
+# income
+salary=12
+# assets
+cash=31
+etf=0
+crypto=10
+bonds=184
+stocks=16
+retirement=13
+stocks2=0
+# loans
+carLoan=-50
+mortgage=-260.2
+# summary
+netWorth=-56.2
+# notes
+note=["Took out 50k car loan", "Monthly payment starts next month"]
+
+[[month]]
+date="2024-12"
+# income
+salary=11
+# assets
+cash=20
+etf=0
+crypto=13
+bonds=185
+stocks=17
+retirement=14
+stocks2=0
+# loans
+carLoan=-50
+mortgage=-260.0
+# summary
+netWorth=-61.0
+
+[[month]]
+date="2025-01"
+# income
+salary=14
+# assets
+cash=34
+etf=0
+crypto=12
+bonds=186
+stocks=17
+retirement=14
+stocks2=0
+# loans
+carLoan=-48.8
+mortgage=-259.8
+# summary
+netWorth=-45.6
+
+[[month]]
+date="2025-02"
+# income
+salary=14
+# assets
+cash=45
+etf=0
+crypto=10
+bonds=187
+stocks=19
+retirement=15
+stocks2=0
+# loans
+carLoan=-47.5
+mortgage=-259.5
+# summary
+netWorth=-31.0
+
+[[month]]
+date="2025-03"
+# income
+salary=13
+# assets
+cash=50
+etf=0
+crypto=8
+bonds=188
+stocks=19
+retirement=16
+stocks2=0
+# loans
+carLoan=-46.2
+mortgage=-259.2
+# summary
+netWorth=-24.4
+
+[[month]]
+date="2025-04"
+# income
+salary=13
+# assets
+cash=51
+etf=0
+crypto=7
+bonds=189
+stocks=19
+retirement=17
+stocks2=0
+# loans
+carLoan=-45.0
+mortgage=-258.9
+# summary
+netWorth=-20.9
+
+[[month]]
+date="2025-05"
+# income
+salary=13
+# assets
+cash=54
+etf=0
+crypto=8
+bonds=190
+stocks=21
+retirement=19
+stocks2=0
+# loans
+carLoan=-43.7
+mortgage=-258.6
+# summary
+netWorth=-11.4
+
+[[month]]
+date="2025-06"
+# income
+salary=13
+# assets
+cash=57
+etf=0
+crypto=8
+bonds=191
+stocks=23
+retirement=20
+stocks2=0
+# loans
+carLoan=-42.4
+mortgage=-258.4
+# summary
+netWorth=-1.8
+
+[[month]]
+date="2025-07"
+# income
+salary=13
+# assets
+cash=57
+etf=0
+crypto=8
+bonds=192
+stocks=24
+retirement=21
+stocks2=0
+# loans
+carLoan=-41.1
+mortgage=-258.2
+# summary
+netWorth=2.7
+
+[[month]]
+date="2025-08"
+# income
+salary=16
+# assets
+cash=70
+etf=0
+crypto=11
+bonds=193
+stocks=22
+retirement=23
+stocks2=0
+# loans
+carLoan=-39.8
+mortgage=-257.9
+# summary
+netWorth=21.3
+# notes
+note="Salary bonus received"
+
+[[month]]
+date="2025-09"
+# income
+salary=15
+# assets
+cash=78
+etf=0
+crypto=10
+bonds=194
+stocks=22
+retirement=23
+stocks2=0
+# loans
+carLoan=-38.5
+mortgage=-257.6
+# summary
+netWorth=30.9
+
+[[month]]
+date="2025-10"
+# income
+salary=15
+# assets
+cash=86
+etf=0
+crypto=11
+bonds=195
+stocks=24
+retirement=24
+stocks2=0
+# loans
+carLoan=-37.1
+mortgage=-257.3
+# summary
+netWorth=45.6
+
+[[month]]
+date="2025-11"
+# income
+salary=15
+# assets
+cash=91
+etf=0
+crypto=8
+bonds=196
+stocks=21
+retirement=26
+stocks2=0
+# loans
+carLoan=-35.8
+mortgage=-257.0
+# summary
+netWorth=49.2
+
+[[month]]
+date="2025-12"
+# income
+salary=12
+# assets
+cash=94
+etf=0
+crypto=7
+bonds=197
+stocks=22
+retirement=26
+stocks2=0
+# loans
+carLoan=-34.5
+mortgage=-256.7
+# summary
+netWorth=54.8
+# notes
+note="Year-end bonus - cash at all-time high"
+
+[[month]]
+date="2026-01"
+# income
+salary=17
+# assets
+cash=59
+etf=20
+crypto=7
+bonds=199
+stocks=21
+retirement=29
+stocks2=0
+# loans
+carLoan=-33.1
+mortgage=-256.4
+# summary
+netWorth=66.5
+# notes
+note=["First ETF purchase - 20k from cash", "Started long-term investment strategy"]
+
+[[month]]
+date="2026-02"
+# income
+salary=16
+# assets
+cash=63
+etf=30
+crypto=5
+bonds=200
+stocks=22
+retirement=30
+stocks2=6
+# loans
+carLoan=-31.8
+mortgage=-256.1
+# summary
+netWorth=76.1
+
+[[month]]
+date="2026-03"
+# income
+salary=25
+# assets
+cash=89
+etf=30
+crypto=5
+bonds=201
+stocks=22
+retirement=30
+stocks2=5
+# loans
+carLoan=-30.4
+mortgage=-255.6
+# summary
+netWorth=96.0
+
+[[month]]
+date="2026-04"
+# income
+salary=25
+# assets
+cash=77
+etf=30
+crypto=5
+bonds=202
+stocks=22
+retirement=31
+stocks2=5
+# loans
+carLoan=0
+mortgage=-255
+# summary
+netWorth=117
+# notes
+note="Paid off car loan in full"
+
+[[month]]
+date="2026-05"
+# income
+salary=25
+# assets
+cash=77
+etf=54
+crypto=5
+bonds=203
+stocks=23
+retirement=33
+stocks2=5
+# loans
+carLoan=0
+mortgage=-255
+# summary
+netWorth=145
+
+[[month]]
+date="2026-06"
+# income
+salary=25
+# assets
+cash=44
+etf=56
+crypto=4
+bonds=204
+stocks=20
+retirement=35
+stocks2=6
+# loans
+carLoan=0
+mortgage=-200
+# summary
+netWorth=169
+# notes
+note=["Transfer 33k from cash to ETF", "Rebalanced portfolio to 60/40"]
+
+[[month]]
+date="2026-07"
+# income
+salary=24
+# assets
+cash=44
+etf=68
+crypto=4
+bonds=205
+stocks=20
+retirement=35
+stocks2=5
+# loans
+carLoan=0
+mortgage=-190
+# summary
+netWorth=191
