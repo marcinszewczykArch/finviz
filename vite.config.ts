@@ -1,7 +1,7 @@
-import { defineConfig } from "vitest/config";
+import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: '/finviz/',
+  base: "/finviz/",
   test: {
     include: ["src/**/*.test.ts"],
   },
